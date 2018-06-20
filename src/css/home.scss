@@ -113,12 +113,16 @@
             ul {
                 margin-bottom: 0;
                 list-style: circle;
-                padding: 0;
-                list-style-position: inside;
+                padding: 0 30px;
+                text-align: left;
                 li {
                     font-size: 16px;
                     line-height: 2.6em;
                     letter-spacing: 1.2px;
+                    list-style-position: inside;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
                     a {
                         color: #333;
                         font-weight: 700;
