@@ -4,7 +4,7 @@ import equipment from './page/equipment.html';
 import promote from './page/promote.html';
 import team from './page/team.html';
 import tech from './page/tech.html';
-import new from './page/new.html';
+import pen from './page/pen.html';
 import home from './page/home.html';
 
 export default Backbone.Router.extend({
@@ -36,7 +36,7 @@ export default Backbone.Router.extend({
     contact() {
         $('#app').html(contact);
     },
-    new() {
+    pen() {
         $('#app').html(new);
     },
 });
