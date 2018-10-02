@@ -4,7 +4,7 @@ import equipment from './page/equipment.html';
 import promote from './page/promote.html';
 import team from './page/team.html';
 import tech from './page/tech.html';
-import tech from './page/new.html';
+import new from './page/new.html';
 import home from './page/home.html';
 
 export default Backbone.Router.extend({
