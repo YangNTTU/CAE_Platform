@@ -15,7 +15,7 @@ export default Backbone.Router.extend({
         'promote': 'promote',
         'team': 'team',
         'contact': 'contact',
-        'new': 'new',
+        'pen': 'pen',
     },
 
     home() {
