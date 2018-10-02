@@ -15,6 +15,7 @@ export default Backbone.Router.extend({
         'promote': 'promote',
         'team': 'team',
         'contact': 'contact',
+        'new': 'new',
     },
 
     home() {
@@ -34,5 +35,8 @@ export default Backbone.Router.extend({
     },
     contact() {
         $('#app').html(contact);
+    },
+    new() {
+        $('#app').html(new);
     },
 });
