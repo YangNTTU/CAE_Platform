@@ -1,1 +1,94 @@
+#new {
+    margin-top: 64px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #f5f7fa 0%, #d0d9e7 100%);
+    .content {
+        padding-top: 3em;
+        text-align: center;
+        min-width: 320px;
 
+        .bord-contain {
+            text-align: center;
+            margin-top: 3em;
+            .sm-bord {
+                .buttom {
+                    display: inline-block;
+                    border: solid 2px;
+                    padding: 20px 40px;
+                    font-size: 42px;
+                    font-weight: 700;
+                    // min-width: 320px;
+                }
+                p {
+                    margin: 2em 0;
+                    text-align: justify;
+                    letter-spacing: 1.6px;
+                    line-height: 1.6em;
+                    padding: 0 1em;
+                    font-size: 20px;
+                    // min-width: 350px;
+                }
+            }
+        }
+
+    }
+
+    .about-us {
+        background: linear-gradient(-120deg, #accbee 0%, #d2dff1 100%);
+
+        .content {
+            padding-bottom: 3em;
+            h1 {
+                font-size: 28px;
+                font-weight: 900;
+                line-height: 1.3em;
+                margin: 0 auto;
+            }
+            p {
+                width: 60%;
+                margin: 2em auto 0 auto;
+                text-align: justify;
+                letter-spacing: 1.6px;
+                line-height: 1.6em;
+                font-size: 20px;
+            }
+        }
+    }
+
+
+    /* Small devices (tablets, 768px and up) */
+    @media (max-width: 750px) {
+        h1 {
+            font-size: 32px !important;
+        }
+        .sm-bord{
+            .buttom {
+                padding: 15px 30px !important;
+                font-size: 36px !important;
+            }
+            p {
+                font-size: 18px !important;
+                padding: 0 !important;
+            }
+        }
+        .about-us {
+            h1 {
+                font-size: 24px !important;
+                width: 90% !important;
+                text-align: justify !important;
+            }
+
+            p {
+                width: 90% !important;
+                font-size: 18px !important;
+            }
+        }
+    }
+
+    /* Medium devices (desktops, 992px and up) */
+    // @media (min-width: @screen-md-min) { ... }
+    //
+    // /* Large devices (large desktops, 1200px and up) */
+    // @media (min-width: @screen-lg-min) { ... }
+
+}
