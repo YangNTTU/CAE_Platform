@@ -37,6 +37,6 @@ export default Backbone.Router.extend({
         $('#app').html(contact);
     },
     pen() {
-        $('#app').html(new);
+        $('#app').html(pen);
     },
 });
