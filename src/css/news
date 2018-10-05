@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Membership</title>
+        <link rel="stylesheet" href="../master.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="col-md-8 col-md-offset-2 bord">
+                <h1 style="font-size: 22px; line-height: 1.6em;font-weight: bold;">本聯盟於6月22日參加科技部於花蓮美崙工業區所舉辦之“智慧機械與無毒農業產學交流媒合會”</h1>
+                <hr>
+                <p>本聯盟參與科技部在6/22 (五)下午1:00~4:00假花蓮美崙工業區服務中心2樓M201會議室所舉辦之<a href="https://goo.gl/79WkER">“智慧機械與無毒農業產學交流媒合會”</a>，聯盟主持人楊繼江教授將於現場進行聯盟簡介，且於會場進行成果展示及招商。歡迎各界先進及廠商蒞臨指導交流。</p>
+            </div>
+        </div>
+        <!-- <script src="../../../bundle.js" type="text/javascript"></script> -->
+    </body>
+</html>
