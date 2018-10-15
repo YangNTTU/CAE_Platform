@@ -27,8 +27,12 @@ hr {
 }
 img {
     width: 100%;
-    margin: 1.6em auto;
+    margin: 1.2em auto;
     text-align: center;
+}
+ul {
+    padding-left: 1.5em;
+    font-size: 16px;
 }
 p {
     font-size: 16px;
